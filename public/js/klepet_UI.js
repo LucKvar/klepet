@@ -102,7 +102,7 @@ $(document).ready(function() {
     
     $('#seznam-uporabnikov div').click(function() {
         var imeUporabnika = $(this).text();
-        $('#poslji-sporocilo').val('/zasebno \"' + imeUporabnika +'\"');
+        $('#poslji-sporocilo').val('/zasebno \"' + imeUporabnika +'" "\"');
         $('#poslji-sporocilo').focus();
     })
   });
